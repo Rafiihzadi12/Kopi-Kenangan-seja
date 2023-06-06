@@ -48,6 +48,13 @@ body {
   color: var(--primary);
 }
 
+.navbar .navbar-nav a {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0 1rem;
+}
+
 #hamburger-menu {
   display: none;
 }
@@ -57,7 +64,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("img/mike-kenneally-tNALoIZhqVM-unsplash.jpg");
+  background-image: url("../img/mike-kenneally-tNALoIZhqVM-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -319,8 +326,8 @@ footer .credit a {
 
   .navbar .navbar-nav a {
     color: var(--bg);
-    display: block;
-    margin: 1.5rem;
+    display: inline-block;
+    margin: 1.3rem;
     padding: 0.5rem;
     font-size: 2rem;
   }
